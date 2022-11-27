@@ -13,7 +13,7 @@ int[,] matrix = new int[m, n];
 FillMatrix(matrix);
 PrintArray(matrix);
 Console.WriteLine();
-Console.WriteLine("Введите позиции элемента:");
+Console.WriteLine("Insert indexes of the required number:");
 int i = Convert.ToInt16(Console.ReadLine());
 int j = Convert.ToInt16(Console.ReadLine());
 if (i < m && j < m)
